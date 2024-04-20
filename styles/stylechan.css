@@ -1,0 +1,139 @@
+*
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap  https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100; 1.200;1.300;1.400;1.500;1.600;1.700;1.800;1.900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab&display=swapurl https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color:#0C0C0C;
+    background-image: url("Peekaboo.png");
+    height: 500px;
+    background-position: center;
+   
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu{
+    display:flex;
+    gap: 80px;
+}
+.cabecalho__menu__link{
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#ee0909d3;
+    text-decoration: none;
+}
+
+.lider__chan__titulo{
+    color:white;
+    margin: 5% 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.75;
+    font-weight: 400;
+    font-style: normal;
+}
+.titulo:hover{
+    background-color:red;
+
+}
+.lider__chan__bangchan1{
+    align-self: center;
+}
+.lider__chan__paragrafo{
+    
+    color:white;
+    margin: 2%  5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+
+}
+.lider__chan__bangchan1{
+    width: 50%;
+}
+.lider__chan__insta{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    width: 378px;
+    border:2px solid #22D4FD;
+    text-align : center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+}
+.lider__chan__insta:hover{
+    background-color: #272727;
+}
+.lideCur__channie__curiosidades{
+    color:white;
+    margin: 5% 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto Slab", serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.liderCur__channie__curiosidades{
+    background-color:red;
+}
+.liderCur__channie__chan2019{
+    width: 50%;
+}
+.liderCur__channie__curiosidades__paragrafo{
+    color:white;
+    margin: 2%  5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.liderCur__channie__curiosidades__paragrafo :hover{
+    background-color:red;
+}
+
+.liderW__Wolf__Entrevistas{
+    color:white;
+    margin: 5% 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.liderW__Wolf__Entrevistas:hover{
+    background-color:red;
+}
+.liderW__Wolf__Entrevista{
+    width: 50%;
+}
+.rodape{
+    padding: 10px;
+    color: black;
+    background-color:royalblue ;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+} 
